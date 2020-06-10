@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.labaratory_4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:5:22-63
+12
+13    <application
+13-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:8:5-37:19
+14        android:allowBackup="true"
+14-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.2.0] C:\Users\nikit\.gradle\caches\transforms-2\files-2.1\7ea99ae170f37e74143993a79bd9285e\core-1.2.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:14:9-40
+23        <activity
+23-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:15:9-22:20
+24            android:name="com.example.labaratory_4.WidgetConfigActivity"
+24-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:15:19-55
+25            android:noHistory="true" >
+25-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:16:13-37
+26            <intent-filter>
+26-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:17:13-20:29
+27                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+27-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:18:17-87
+27-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:18:25-84
+28            </intent-filter>
+29        </activity>
+30
+31        <receiver
+31-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:24:9-36:20
+32            android:name="com.example.labaratory_4.DateWidgetProvider"
+32-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:24:19-53
+33            android:enabled="true"
+33-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:25:13-35
+34            android:exported="true" >
+34-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:26:13-36
+35            <intent-filter>
+35-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:27:13-31:29
+36                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+36-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:28:17-84
+36-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:28:25-81
+37                <action android:name="android.intent.action.TIME_TICK" />
+37-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:29:17-73
+37-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:29:25-71
+38            </intent-filter>
+39
+40            <meta-data
+40-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:33:13-35:59
+41                android:name="android.appwidget.provider"
+41-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:34:17-58
+42                android:resource="@xml/datawidget_info" />
+42-->C:\Users\nikit\AndroidStudioProjects\dpa\projects\labaratory_4\app\src\main\AndroidManifest.xml:35:17-56
+43        </receiver>
+44    </application>
+45
+46</manifest>
